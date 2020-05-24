@@ -6,8 +6,6 @@ body {
 
 
 
-
-
 script {
     src : "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
     src : "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js";
@@ -20,5 +18,8 @@ container {
     width: auto;
     text-decoration: transparent;
 
+}
 
+image1{
+    src: "./images/austinPowerlines.jpg"
 }

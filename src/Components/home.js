@@ -5,7 +5,7 @@ import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import { Container, Button,  Row, Col, Carousel } from 'react-bootstrap';
+import { Container, Button,  Row, Col, Carousel, Navbar, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap';
 
 
 console.log("The Home.js file is being touched");
@@ -19,23 +19,31 @@ class Home extends React.Component {
             
            
             <div>
-                <h2> This is rendering HTML</h2>
-                <h4>Rendering an additional header in one encompassing division</h4>
-                <Button>
-                    Testing Button
-                </Button>
-                
-               
-                <Container>
-                    <Row>
-                        <span>This is a row in a container</span>
-                    </Row>
-                    <Row> 
-                        This is an additional Row 
-                    </Row>
-                    <Col>This is a container</Col><Col> An additional column</Col>
-                    
-                </Container>
+                <Navbar bg="light" expand="lg">
+                <Navbar.Brand href="#home">Hi i'm Matthew</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#link">Link</Nav.Link>
+                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="#action/3.1">Design Documentation</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.2">GitHub</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Adventures</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Internship</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Podcasts</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="#action/3.4">About</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
+                    </NavDropdown>
+                    </Nav>
+                    <Form inline>
+                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                    <Button variant="outline-success">Search</Button>
+                    </Form>
+                </Navbar.Collapse>
+                </Navbar>
+
           
                 <Carousel>
                 <Carousel.Item>
