@@ -1,16 +1,21 @@
 import React from "react";
 
-
-
+//import all of bootstrap 
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+//import my simple css file 
 import './home.css';
 
+//importing bootstrap components
 import { Container, Button,  Row, Col, Carousel, Navbar, Nav, NavDropdown, Form, FormControl, Image, Jumbotron } from 'react-bootstrap';
 
+ //importing sass variable changes(specifically for jumbotron)
+// import './home.scss'
+
+//attempt to import image from file route to be stored as a variable -- unable to create background image for jumbotron
 import bgimage from './images/resizeLake5.png'
 
 console.log("The Home.js file is being touched");
-
 
 class Home extends React.Component {
 
@@ -21,7 +26,7 @@ class Home extends React.Component {
            
             <div>
                 <Navbar bg="dark" variant = "dark" expand="lg">
-                <Navbar.Brand href="#home" style = {{fontFamily: "Arial" , size: 150, fontWeight: "bold", fontSize: "200%", color: "black"}}>Hi </Navbar.Brand>
+                <Navbar.Brand href="./" style = {{color: "white", textAlign: "center", textShadow: "2px 2px 5px navy" }}>whoismatthewsloan.com </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -49,7 +54,7 @@ class Home extends React.Component {
                     </Nav.Link> */}
 
                     <NavDropdown style = {{font: "Arial", fontWeight: "bold", fontSize: "200%", color: "black"}}>
-                        <NavDropdown.Item href="#action/3.1">Design Documentation</NavDropdown.Item>
+                        <NavDropdown.Item href="./designDocumentation">Design Documentation</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">GitHub</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Adventures</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Internship</NavDropdown.Item>
@@ -112,7 +117,7 @@ class Home extends React.Component {
                 
                 <Jumbotron style = {{ size: 50 , opacity:0.4, backgroundImage : "./images/resizeLake5.png", backgroundSize: 'cover'}} >
                     <Container style = {{ size: 50 , opacity:0.4, backgroundImage : "./images/resizeLake5.png", backgroundSize: 'cover'}}>
-                    <h2 style = {{textAlign: "center"}}> I'm Matthew Sloan</h2>
+                    <h2 style = {{textAlign: "center", color: "white"}}> I'm Matthew Sloan</h2>
                     <p style = {{textAlign: "center"}}> This is a reflection of my life from both personal and professional aspects.</p>
                     </Container>
                 </Jumbotron>

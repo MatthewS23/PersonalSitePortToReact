@@ -19,11 +19,11 @@ body {
 
     text-align: center;}
 
-    .carousel {
+    /* .carousel {
         /* width:800px;
         height:1000px; */
         
-        }
+        /* } */ */
         
         .carousel-inner {
         
@@ -36,8 +36,10 @@ body {
 
 .jumbotron {
 
-        background-image: require("./images/AustinBeauty.jpg");
-        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0,0.75);
+         background-image: url("./images/AustinBeauty.jpg");
+        /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0,0.75); */
+        /* opacity: "0.5"; */
+         
 
 }
 
