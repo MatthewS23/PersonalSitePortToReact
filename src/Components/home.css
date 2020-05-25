@@ -1,25 +1,47 @@
+
+
 body {
-    color: grey;
-    background-color: darkgreen;
+    color: #6f5d5d;
+    background-color:#6f5d5d;
+    /* background-blend-mode: soft-light; */
     behavior: inherit;
 }
 
 
+.Container1 {
 
-script {
-    src : "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js";
-    src : "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js";
-}
-
-container {
-    background-color: darkgoldenrod;
-    box-sizing: border-box;
-    shape-rendering: crispEdges;
-    width: auto;
-    text-decoration: transparent;
+   text-align: center;
+    align-content: center;
 
 }
 
-image1{
-    src: "./images/austinPowerlines.jpg"
+.navBar {
+
+    text-align: center;}
+
+    .carousel {
+        /* width:800px;
+        height:1000px; */
+        
+        }
+        
+        .carousel-inner {
+        
+        /* height:900px; */
+        
+        object-fit: contain;
+        
+        }
+
+
+.jumbotron {
+
+        background-image: require("./images/AustinBeauty.jpg");
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0,0.75);
+
 }
+
+
+
+
+
