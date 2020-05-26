@@ -54,7 +54,7 @@ class Home extends React.Component {
                     </Nav.Link> */}
 
                     <NavDropdown style = {{font: "Arial", fontWeight: "bold", fontSize: "200%", color: "black"}}>
-                        <NavDropdown.Item href="./designDocumentation">Design Documentation</NavDropdown.Item>
+                        <NavDropdown.Item href="./designDocumentation">Architectural Design</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">GitHub</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Adventures</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Internship</NavDropdown.Item>
@@ -65,15 +65,12 @@ class Home extends React.Component {
                         <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
                     </NavDropdown>
                     </Nav>
-                    <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-success">Search</Button>
-                    </Form>
                 </Navbar.Collapse>
                 </Navbar>
 
-          
-                <Carousel>
+                    <>
+
+                <Carousel style = {{ margin: "25px 25px 25px 25px", padding: "25px", borderStyle: "groove", borderWidth: "small", borderRadius: "5px"}}>
                 <Carousel.Item>
                     <img
                     className="c-block w-100 h-100"
@@ -87,7 +84,7 @@ class Home extends React.Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100  h-100"
                     src= {require("./images/Frands.JPG")}
                     alt="Third slide"
                     />
@@ -99,7 +96,7 @@ class Home extends React.Component {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100  h-100"
                     src={require("./images/newestProfilePic.png")}
                     alt="Third slide"
                     width = "15%"
@@ -112,13 +109,13 @@ class Home extends React.Component {
                 </Carousel.Item>
                 </Carousel>
 
+                    </>
 
                 <Container style = {{paddingLeft: true, paddingRight: true, size: "100%", paddingTop: true, paddingBottom: true}}>
                 
-                <Jumbotron style = {{ size: 50 , opacity:0.4, backgroundImage : "./images/resizeLake5.png", backgroundSize: 'cover'}} >
-                    <Container style = {{ size: 50 , opacity:0.4, backgroundImage : "./images/resizeLake5.png", backgroundSize: 'cover'}}>
-                    <h2 style = {{textAlign: "center", color: "white"}}> I'm Matthew Sloan</h2>
-                    <p style = {{textAlign: "center"}}> This is a reflection of my life from both personal and professional aspects.</p>
+                <Jumbotron style = {{ size: 50 , backgroundImage : "./images/resizeLake5.png", backgroundSize: 'cover'}} >
+                    <Container style = {{ size: 50 , opacity:0.95, backgroundImage : "./images/resizeLake5.png", backgroundSize: 'cover'}}>
+                    <h2 style = {{textAlign: "center", color: "white"}}> Professional Profiles Below</h2>
                     </Container>
                 </Jumbotron>
 
