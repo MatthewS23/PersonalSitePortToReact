@@ -30,39 +30,15 @@ class Home extends React.Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                    {/* <Nav.Link 
-                    href="#home" style = {{font: "Arial", size: 150, fontWeight: "bold", fontSize: "200%", color: "black"}}>
-                        Home
-                    </Nav.Link> */}
 
-                    {/* <Nav.Link href="#link"> 
-                        
-                    <Image
-
-                    //className="d-block w-100"
-                    //className = "h-auto d-inline-block w-auto" 
-                    className = "d-block w-100"
-                    src={require("./images/logoresize2.png")}
-                    // width = "10"
-                    // height = "5"
-                    // max-width = "100%"
-                    // max-height = "100%"
-                    alt="Third slide"
-
-                    />
-                    
-                    </Nav.Link> */}
 
                     <NavDropdown style = {{font: "Arial", fontWeight: "bold", fontSize: "200%", color: "black"}}>
                         <NavDropdown.Item href="./designDocumentation">Architectural Design</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">GitHub</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Adventures</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Internship</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Podcasts</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">LinkedIn</NavDropdown.Item>
+                        <NavDropdown.Item href="https://github.com/MatthewS23">GitHub</NavDropdown.Item>
+                        <NavDropdown.Item href="https://sites.stedwards.edu/seucareer/2018/10/03/student-spotlight-matthew-sloan-20/">Internship</NavDropdown.Item>
+                        <NavDropdown.Item href="https://www.linkedin.com/in/matthew-sloan/">LinkedIn</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">About</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
+                        <NavDropdown.Item href="./about">About/Contact</NavDropdown.Item>
                     </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
@@ -124,9 +100,9 @@ class Home extends React.Component {
                 <Nav className = "justify-content-center" defaultActiveKey="/home" as="ul">
                     
                     <Nav.Item as="li">
-                        <Nav.Link href="/home"
+                        <Nav.Link href="https://www.linkedin.com/in/matthew-sloan/"
                         // text-align = "center"
-                        > 
+                        >
                         
                         <Image
                         className = "d-block w-100"
@@ -139,9 +115,9 @@ class Home extends React.Component {
                     </Nav.Item>
 
                     <Nav.Item as="li">
-                        <Nav.Link eventKey="link-1"
-                        //  text-align = "center"
-                        >
+                        <Nav.Link href="https://www.upwork.com/freelancers/~013b0059dd05dcc584"
+                            // text-align = "center"
+                       >
                          
                          <Image
                          className = "d-block w-100"
@@ -153,10 +129,12 @@ class Home extends React.Component {
 
                     </Nav.Item>
                     <Nav.Item as="li">
-                        <Nav.Link eventKey="link-1"
-                        //  text-align = "center"
+
+
+                        <Nav.Link href="https://github.com/MatthewS23"
+                            // text-align = "center"
                         >
-                         
+
                          <Image
                          className = "d-block w-100"
                          src={require("./images/githublogo.png")}

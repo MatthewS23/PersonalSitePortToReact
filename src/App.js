@@ -13,6 +13,8 @@ import landingPage from "./Components/landingPage";
 //Connecting the Landing Page2 component that extends React.Component from designDocumentation.js
 import landingPage2 from "./Components/landingPage";
 
+import about from "./Components/about";
+
 class App extends React.Component{
   render(){
     return(<BrowserRouter>
@@ -20,6 +22,7 @@ class App extends React.Component{
      
       <Route exact path= "/" component={Home} />
       <Route exact path= "/designDocumentation" component={designDocumentation} />
+      <Route exact path= "/about" component={about} />
       <Route exact path= "/landingPage" component={landingPage} />
       <Route exact path= "/landingPage2" component={landingPage2} />
       </div>

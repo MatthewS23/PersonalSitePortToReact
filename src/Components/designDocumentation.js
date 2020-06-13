@@ -19,31 +19,25 @@ class designDocumentation extends React.Component {
         return(
 
             <div>
-            <Navbar bg="dark" variant = "dark" expand="lg">
-            <Navbar.Brand href="./" style = {{color: "white", textAlign: "center", textShadow: "2px 2px 5px navy" }}>Architectural Design</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-              
 
-                <NavDropdown style = {{font: "Arial", fontWeight: "bold", fontSize: "200%", color: "black"}}>
-                    <NavDropdown.Item href="#action/3.1">Architectural Design</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">GitHub</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Adventures</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Internship</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Podcasts</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">LinkedIn</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">About</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.4">Contact Me</NavDropdown.Item>
-                </NavDropdown>
-                </Nav>
-                <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-success">Search</Button>
-                </Form>
-            </Navbar.Collapse>
-            </Navbar>
+                    <Navbar bg="dark" variant = "dark" expand="lg">
+                        <Navbar.Brand href="./" style = {{color: "white", textAlign: "center", textShadow: "2px 2px 5px navy" }}>whoismatthewsloan.com </Navbar.Brand>
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+                            <Nav className="mr-auto">
+
+
+                                <NavDropdown style = {{font: "Arial", fontWeight: "bold", fontSize: "200%", color: "black"}}>
+                                    <NavDropdown.Item href="./designDocumentation">Architectural Design</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://github.com/MatthewS23">GitHub</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://sites.stedwards.edu/seucareer/2018/10/03/student-spotlight-matthew-sloan-20/">Internship</NavDropdown.Item>
+                                    <NavDropdown.Item href="https://www.linkedin.com/in/matthew-sloan/">LinkedIn</NavDropdown.Item>
+                                    <NavDropdown.Divider />
+                                    <NavDropdown.Item href="./about">About/Contact</NavDropdown.Item>
+                                </NavDropdown>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Navbar>
             <Image src = {require ("./images/swe2SystemDiagram.png")} style = {{padding: "50px", border: "1px solid #ddd", marginLeft: "auto", marginRight: "auto"}} fluid>
             
 
@@ -99,7 +93,7 @@ class designDocumentation extends React.Component {
                     <td>HTML and Javascript</td>
                     <td>Vanilla Python</td>
                     <td>MySQL</td>
-                    <td>Rotating Positions</td>
+                    <td>Backend and Assistant Scrum Master</td>
                     <td>Agile Scrum Team of 6</td>
                     </tr>
                     
