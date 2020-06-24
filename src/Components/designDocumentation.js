@@ -4,10 +4,6 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-//import my simple css file 
-import './designDocumentation.css';
-
-
 //importing bootstrap components
 import { Container, Button,  Row, Col, Carousel, Navbar, Nav, NavDropdown, Form, FormControl, Image, Jumbotron, Table } from 'react-bootstrap';
 import { withRouter } from "react-router-dom";

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 //import my simple css file
-import './designDocumentation.css';
+//import './designDocumentation.css';
 
 
 //importing bootstrap components
