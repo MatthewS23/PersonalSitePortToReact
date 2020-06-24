@@ -15,7 +15,7 @@ import landingPage2 from "./Components/landingPage";
 
 import about from "./Components/about";
 
-import iam_frontend from "./Components/iam_frontend"
+
 
 class App extends React.Component{
   render(){
@@ -27,7 +27,6 @@ class App extends React.Component{
       <Route exact path= "/about" component={about} />
       <Route exact path= "/landingPage" component={landingPage} />
       <Route exact path= "/landingPage2" component={landingPage2} />
-      <Route exact path = "/IAM" component = {iam_frontend} />
       </div>
 
 
