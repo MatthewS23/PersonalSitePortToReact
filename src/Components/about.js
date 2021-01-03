@@ -65,7 +65,7 @@ render(){
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Digital Ocean, familiar with Linux OS Server Management solely through command line</td>
+                        <td>Digital Ocean, familiar with Linux OS Server Management through Command Line and GUI interfaces. IT Security Audit: AWS, Microsoft Azure, and Google </td>
                         <td>JavaScript, HTML, CSS, React.js</td>
                         <td>Python, Node.js, Express.js(API development and third Party API interaction)</td>
                         <td>mySQL, MongoDB</td>
@@ -91,7 +91,7 @@ render(){
                     </tbody>
                 </Table>
             <p style = {{color: "white", textAlign: "center", textShadow: "2px 2px 5px navy", padding: "10px" }}>While completing my degree in Computer Information Science with a minor in Accounting at St. Edward’s University I was a part of three scrum teams, continuously repeating the software development lifecycle, to deliver web applications. Through these projects I was able to attain the fundamental skills as a full stack software engineer. These experiences include: designing, developing, and testing REST APIs (node.js and python), react.js applications, web server HTTP request handlers, and static HTML/CSS files. In the realm of databases I have experience designing and implementing relational and non-relational databases such as mongodb and mySQL. Additionally I am proficient in NGINX reverse proxies, Bash Command line, GitHub and Bitbucket using Git, architectural and user experience design, and Linux/Microsoft/Mac.
-                During my time as an Information Technology Audit Intern I was able to see a wide breadth of technology systems from on premise to cloud environments such as AWS, Microsoft Azure, and Google Cloud. Exposure to these systems and the security controls that we sought in our audits instilled a great understanding of the variance of systems and their corresponding security risks.
+                
             </p>
                 <h5 style = {{color: "white", textAlign: "center", textShadow: "2px 2px 5px navy" }}>Contact me at matthew.sloan23@gmail.com for inquiries</h5>
             </Container>

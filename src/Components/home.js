@@ -114,20 +114,7 @@ class Home extends React.Component {
 
                     </Nav.Item>
 
-                    <Nav.Item as="li">
-                        <Nav.Link href="https://www.upwork.com/freelancers/~013b0059dd05dcc584"
-                            // text-align = "center"
-                       >
-                         
-                         <Image
-                         className = "d-block w-100"
-                         src={require("./images/upworkLogo4.png")}
-                         alt="first slide"
-                         />
 
-                    </Nav.Link>
-
-                    </Nav.Item>
                     <Nav.Item as="li">
 
 
